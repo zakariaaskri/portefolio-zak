@@ -1,0 +1,45 @@
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/phone_53876-25489.jpg?w=740&t=st=1683555285~exp=1683555885~hmac=48b5e15ec4fd56276d087b787dd1a3a6c264893ab9244c2255bc37b93abba446);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+
+#p1{
+   position:absolute;
+   left: 200px;
+   font-size: 50px;
+   top: 20%;
+}
+#list1{
+    position:absolute;
+    top: 60%;
+    left: 180px;
+    list-style-type: none;
+    font-size: xx-large;
+    font-style:italic;
+
+}
+#list1 li p{
+    font-size: xx-large;
+    font-style:italic;
+    position :relative;
+    left: 80%;
+}
+button:hover{
+    cursor: pointer;
+}
+.inpandbtn{
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 70%;
+    size: 30px;
+    padding-left: 3px;
+}
+button{
+    margin-top:5px;
+    margin-left: 5px;
+}
