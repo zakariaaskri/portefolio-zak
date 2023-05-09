@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://scontent.ftun4-2.fna.fbcdn.net/v/t39.30808-6/336914983_592299789602083_1792457428288276359_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=oS4P7lIy2-0AX9FXmdu&_nc_ht=scontent.ftun4-2.fna&oh=00_AfDe355ffA447eizewo4L7JiSDCQ0ntMuvd85oh8eRGpyQ&oe=645D19E3);
+   background-image: url(https://scontent.ftun4-2.fna.fbcdn.net/v/t39.30808-6/336914983_592299789602083_1792457428288276359_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=oS4P7lIy2-0AX9FXmdu&_nc_ht=scontent.ftun4-2.fna&oh=00_AfDe355ffA447eizewo4L7JiSDCQ0ntMuvd85oh8eRGpyQ&oe=645D19E3);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:scroll;
@@ -21,42 +21,53 @@ body{
 
 
 .navbar{
-    background-color: black;
+    background-color:green;
     position: absolute;
     top: -8px;
     left: -8px;
-    width: 100%;
+    width: 100.6%;
+    background-color: black;
+    height: 60px;
 }
 .navbar .navbarp{
     color: aliceblue;
-    font-size: 20px;
-    
-
-
+    font-size: 30px;
+    position:absolute;
+    left: 20px;
+   top: -12px;
+   
 }
-span{
-    border-bottom-color:aliceblue;
-    border-bottom-style:solid;
+
+a{
+  
+   
     color: aliceblue;
-    font-size: 10px;
+    font-size: 25px;
     border-bottom-width: 3px;
-    margin: 10px;
-    padding: 4px;
+    margin: 20px;
+    font-weight: lighter;
     
 }
-.spans{
+.links{
     position: absolute;
-    left: 1000px;
-    top: 20px;
+    left: 50%;
+    top: 18px;
     
     color: aliceblue;
 }
-span:hover{
+a:hover{
     background-color: aliceblue;
     color: black;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 3px;
     border-radius: solid;
     border-color: aliceblue;
     cursor: pointer;
+    list-style: none;
+}
+#mybtn{
+    position: absolute;
+    top: 60%;
+    
 }
